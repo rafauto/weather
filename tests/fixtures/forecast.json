@@ -1,0 +1,125 @@
+{
+  "cod": "200",
+  "cnt": 6,
+  "list": [
+    {
+      "dt": 1700002800,
+      "main": {
+        "temp": 24.0,
+        "feels_like": 24.5,
+        "humidity": 70
+      },
+      "weather": [
+        {
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "wind": {
+        "speed": 2.0,
+        "deg": 90
+      },
+      "pop": 0.6
+    },
+    {
+      "dt": 1700013600,
+      "main": {
+        "temp": 22.5,
+        "feels_like": 23.0,
+        "humidity": 71
+      },
+      "weather": [
+        {
+          "description": "light rain",
+          "icon": "10n"
+        }
+      ],
+      "wind": {
+        "speed": 2.5,
+        "deg": 90
+      },
+      "pop": 0.35
+    },
+    {
+      "dt": 1700024400,
+      "main": {
+        "temp": 21.0,
+        "feels_like": 21.5,
+        "humidity": 72
+      },
+      "weather": [
+        {
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "wind": {
+        "speed": 3.0,
+        "deg": 90
+      },
+      "pop": 0.1
+    },
+    {
+      "dt": 1700035200,
+      "main": {
+        "temp": 20.4,
+        "feels_like": 20.9,
+        "humidity": 73
+      },
+      "weather": [
+        {
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ],
+      "wind": {
+        "speed": 3.5,
+        "deg": 90
+      },
+      "pop": 0.0
+    },
+    {
+      "dt": 1700046000,
+      "main": {
+        "temp": 23.8,
+        "feels_like": 24.3,
+        "humidity": 74
+      },
+      "weather": [
+        {
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "wind": {
+        "speed": 4.0,
+        "deg": 90
+      },
+      "pop": 0.0
+    },
+    {
+      "dt": 1700056800,
+      "main": {
+        "temp": 28.1,
+        "feels_like": 28.6,
+        "humidity": 75
+      },
+      "weather": [
+        {
+          "description": "clear sky",
+          "icon": "01d"
+        }
+      ],
+      "wind": {
+        "speed": 4.5,
+        "deg": 90
+      },
+      "pop": 0.05
+    }
+  ],
+  "city": {
+    "name": "Rio de Janeiro",
+    "country": "BR",
+    "timezone": -10800
+  }
+}
