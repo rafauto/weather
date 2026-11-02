@@ -8,7 +8,9 @@
 A web app that shows the **current weather** and a **5-day forecast** for any city in the world.
 Built with Python and Streamlit, using data from the [OpenWeatherMap API](https://openweathermap.org/api).
 
-<!-- **Live demo:** add the Streamlit Community Cloud link here after deploying -->
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/)
+
+**Live demo:** [https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/](https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/)
 
 ## Features
 
@@ -59,6 +61,7 @@ Weather/
 │   ├── config.toml            # Theme
 │   └── secrets.toml.example   # Template for your API key
 ├── .github/workflows/ci.yml   # Lint + tests on every push
+├── .devcontainer/             # GitHub Codespaces / VS Code Dev Container setup
 ├── requirements.txt
 └── requirements-dev.txt
 ```
@@ -152,7 +155,9 @@ The tests use saved sample responses, so they run offline and don't need an API 
 
 ## Deployment
 
-The app is deployed on [Streamlit Community Cloud](https://streamlit.io/cloud):
+The app is live at **[weather-auegrhzznpfgb8gr4mmufc.streamlit.app](https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/)**, hosted for free on [Streamlit Community Cloud](https://streamlit.io/cloud).
+
+To deploy your own copy:
 
 1. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
 2. Click **Create app** → select this repository, branch `main` and main file `app.py`.
