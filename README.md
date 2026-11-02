@@ -4,6 +4,7 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Streamlit](https://img.shields.io/badge/built%20with-Streamlit-FF4B4B)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-v1.0%20complete-brightgreen)
 
 A web app that shows the **current weather** and a **5-day forecast** for any city in the world.
 Built with Python and Streamlit, using data from the [OpenWeatherMap API](https://openweathermap.org/api).
@@ -11,6 +12,15 @@ Built with Python and Streamlit, using data from the [OpenWeatherMap API](https:
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/)
 
 **Live demo:** [https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/](https://weather-auegrhzznpfgb8gr4mmufc.streamlit.app/)
+
+## Why I built this
+
+I built this project to practise the engineering habits I want in every product I work on, in a small, well-defined scope:
+
+- **A clean separation of concerns.** The API client, data models, forecast logic and UI live in separate modules, so each part can be tested and changed on its own.
+- **Tests that don't depend on the network.** The suite uses saved API responses, so it runs offline, in seconds, without an API key.
+- **Respect for real-world limits.** Responses are cached for 10 minutes to stay within the free API quota, and every failure mode (unknown city, invalid key, rate limit, network error) has a clear message for the user.
+- **Shipping, not just coding.** Linting and tests run on every push, and the app is deployed and publicly available.
 
 ## Features
 
@@ -120,6 +130,12 @@ Weather/
    ```
 
    The app opens at <http://localhost:8501>.
+
+### Alternative: GitHub Codespaces
+
+The repository includes a Dev Container (`.devcontainer/`), so you can open it in GitHub Codespaces or VS Code Dev Containers with Python and the dependencies already installed. The app starts automatically on port 8501; just add your API key as described in step 4.
+
+> The Dev Container runs Streamlit with CORS and XSRF protection disabled so the preview works inside Codespaces. Use this setting for development only.
 
 ## Usage
 
