@@ -24,11 +24,13 @@ Built with Python and Streamlit, using data from the [OpenWeatherMap API](https:
 
 ## Screenshots
 
-<!-- Add docs/screenshots/app.png after the first deploy, then uncomment:
-![Weather App screenshot](docs/screenshots/app.png)
--->
+**Current weather**
 
-_Screenshots coming soon._
+![Current weather for Rio de Janeiro: temperature, conditions, humidity, wind, pressure and visibility](docs/screenshots/current-weather.png)
+
+**5-day forecast and temperature chart**
+
+![Scrolling through the 5-day forecast and the interactive temperature chart](docs/screenshots/forecast.gif)
 
 ## Tech stack
 
@@ -56,7 +58,7 @@ Weather/
 │   └── formatting.py          # Units, wind direction, icon URLs
 ├── tests/                     # pytest suite (API calls are mocked)
 │   └── fixtures/              # Sample API responses
-├── docs/screenshots/          # Images used in this README
+├── docs/screenshots/          # Screenshot and GIF used in this README
 ├── .streamlit/
 │   ├── config.toml            # Theme
 │   └── secrets.toml.example   # Template for your API key
